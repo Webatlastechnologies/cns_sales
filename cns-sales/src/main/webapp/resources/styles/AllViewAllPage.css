@@ -1,0 +1,518 @@
+/************************************************************************************
+added by Ankit Jiniwal for kendo element bootstraping
+*************************************************************************************/
+
+select option {
+    font-size: 16px;
+    line-height: 25px;
+}
+ 	
+.filter2 {
+  
+    width: 108px;
+    margin-right: 1%;
+} 
+
+.k-pager-wrap {
+    color: white;
+}
+.k-link,tr #tableId :not(.tabel-td-bg) {
+    font-weight: bold;
+}
+.expand-table-wrapper ul li {
+    width: 10%;
+}
+ #tableId td {
+    
+    border: 1px solid #DBDBDE;
+}
+
+#txnDetailsLink{
+   cursor:pointer;
+}
+#linkTicketID{
+   cursor:pointer;
+}
+.k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-list > .k-state-selected, .k-list > .k-state-highlight, .k-panel > .k-state-selected, .k-ghost-splitbar-vertical, .k-ghost-splitbar-horizontal, .k-draghandle.k-state-selected:hover, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-marquee-color {
+    background-color: #3A74B3;
+    border-color: #3A74B3;
+    color: #FFFFFF;
+}
+.amount{
+color: #3A74B3;
+}
+.k-pager-wrap >  .k-pager-numbers .k-state-selected  {
+    min-width: 2em;
+   border-color: #3A74B3;
+    background-color: #3A74B3;
+}
+.butdiv a {
+    background: none repeat scroll 0 0 #3A74B3;
+    color: #FFFFFF;
+    font-family: "MyriadProRegular",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 15px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+.text {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9A9A9A;
+    border-radius: 5px;
+    color: #8A8A8A;
+    font-family: "MyriadProRegular",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 30px;
+    margin: 2px 0 17px 5%;
+    padding: 5px 6px;
+    vertical-align: middle;
+    width: 85%;
+} 
+
+#noValue,#duplicateValue{
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none;
+    padding:20px;
+    min-width:272px;
+    min-height: 40px;
+    z-index:10000; 
+    font-size: 18px;
+}
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+#grid .k-pager-wrap {
+    background: none repeat scroll 0 0 #3A74B3;
+    margin-top: 10px;
+    padding: 6px 8px;
+}
+#grid .k-pager-wrap >  .k-pager-numbers .k-state-selected  {
+    min-width: 2em;
+   border-color: #3A74B3;
+    background-color: #3A74B3;
+}
+#grid .k-pager-wrap >  .k-pager-numbers .k-state-selected  {
+ background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px;
+    color: #3A74B3;
+}
+#grid .k-pager-wrap > .k-link{
+background: none repeat scroll 0 0 #FFFFFF;
+}
+/* .k-link:link, .k-link:visited, .k-nav-current.k-state-hover .k-link{
+color: #FFFFFF;
+} */
+ #grid .k-link:link,#grid  .k-link:visited,#grid  .k-nav-current.k-state-hover{
+color: #FFFFFF;
+} 
+
+
+
+
+
+/*
+Date Picker
+*/
+
+ 
+.k-header :not( #grid .k-grid-header .k-with-icon .k-link){
+background-color:#3A74B3;
+color: #FFFFFF
+}
+
+.k-calendar .k-nav-fast.k-state-hover{
+   background-color:#3A74B3 ;
+    border-color: #3A74B3;
+   
+}
+.k-state-focused.k-state-selected, .k-list > .k-state-focused.k-state-selected, .k-listview > .k-state-focused.k-state-selected, td.k-state-focused.k-state-selected, .k-button:focus:active:not(.k-state-disabled):not([disabled]) {
+    box-shadow: 0 0 3px 4px #3A74B3 inset;
+}
+.k-calendar .k-nav-prev.k-state-hover{
+   background-color:#3A74B3 ;
+    border-color: #3A74B3;
+
+}
+.k-calendar .k-nav-next.k-state-hover{
+   background-color:#3A74B3 ;
+    border-color: #3A74B3;
+   
+}
+
+.k-calendar .k-nav-fast.k-state-hover{
+   background-color:#3A74B3 ;
+    border-color: #3A74B3;
+   
+}
+
+.k-dropdown .k-input, .k-dropdown .k-state-focused .k-input, .k-menu .k-popup {
+    color: #8A8A8A;
+    font-family: "MyriadProRegular",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    vertical-align: middle;
+
+}
+
+
+       .k-dropdown .k-input, .k-dropdown .k-state-focused .k-input, .k-menu .k-popup {
+    color: #2e2e2e;
+    font-family: "MyriadProRegular",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    }
+    .k-link, tr #tableId *:not(.tabel-td-bg) {
+    font-weight: normal;
+
+}
+#grid .k-grid-header .k-with-icon .k-link, .grid th span {
+    color: #5b5b5b;
+    font-weight: bold;
+}
+.k-grid-header .k-header {
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    font-weight: bolder;
+    overflow: hidden;
+    padding: 0.5em 0.6em 0.4em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.k-filter-help-text, .k-filter-menu .k-widget, .k-filter-menu .k-textbox {
+    font-weight: normal;
+    margin: 0.19em 0 0;
+}
+
+.k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-list > .k-state-selected, .k-list > .k-state-highlight, .k-panel > .k-state-selected, .k-ghost-splitbar-vertical, .k-ghost-splitbar-horizontal, .k-draghandle.k-state-selected:hover, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-marquee-color {
+    background-color: #3A74B3;
+    border-color: #3A74B3;
+    color: #FFFFFF;
+}
+ #grid .k-pager-wrap {
+    background: none repeat scroll 0 0 #3A74B3;
+    margin-top: 10px;
+    padding: 6px 8px;
+}
+#grid .k-pager-wrap >  .k-pager-numbers .k-state-selected  {
+    min-width: 2em;
+   border-color: #3A74B3;
+    background-color: #3A74B3;
+}
+#grid .k-pager-wrap >  .k-pager-numbers .k-state-selected  {
+ background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px;
+    color: #3A74B3;
+}
+#grid .k-pager-wrap > .k-link{
+background: none repeat scroll 0 0 #FFFFFF;
+}
+
+ #grid .k-link:link,#grid  .k-link:visited,#grid  .k-nav-current.k-state-hover{
+color: #FFFFFF;
+} 
+.k-pager-wrap >  .k-pager-numbers .k-state-selected  {
+    min-width: 2em;
+   border-color: #3A74B3;
+    background-color: #3A74B3;
+}
+
+@media screen and (max-width: 1920px) {
+	#txnType {
+    background-repeat: no-repeat scroll 10px center #F4F4F4;
+  /*   color: #3A74B3 !important; */
+    width: 85%;
+  } 
+	
+	
+}
+  @media screen and (min-width:960px) and (max-width: 1024px) {
+ .k-widget, .k-button {
+    box-shadow: none;
+    width: 111%;
+}
+.expand-table-wrapper ul li {
+    width: 12%;
+}
+
+
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+    .k-pager-wrap {
+    color: rgb(255, 255, 255);
+    width: 99%;
+}
+ .filter2 {
+    margin-right: 1%;
+    width: 120px;
+}
+ }
+
+@media screen and (min-width: 768px) and (max-width:800px) {
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+    .k-pager-wrap {
+    color: rgb(255, 255, 255);
+   width: 99% !important;
+}
+.expand-table-wrapper ul li {
+    width: 12%;
+}
+
+
+
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 139%;
+}
+.filter2 {
+	padding-top: 10px;
+	background-position: 5px 9px;
+	margin-right: 1%;
+    width: 120px;
+}
+ 
+
+}
+
+
+@media screen and (min-width:581px) and (max-width: 680px) {
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+    .myprofile {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 5%;
+}
+    .filter2 {
+    
+    background-position: 2px 6px;
+    
+    padding-top: 6px;
+    }
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 179%;
+}
+.personalinfo {
+    width:234px;
+}
+.k-pager-wrap {
+    color: rgb(255, 255, 255);
+    width: 99%;
+}
+#signupContact12 {
+	margin-top: 60px;
+	
+}
+
+.menuicon {
+    float: right;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -9px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: relative;
+}
+
+    }
+
+@media screen and (min-width: 480px) and (max-width:580px) {
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+/* .k-pager-wrap {
+    background-color: rgb(227, 227, 227);
+    color: rgb(46, 46, 46);
+    width: 155%;
+}
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 317%;
+} */
+
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 241%;
+}
+.expand-table-wrapper ul li {
+    width: 12%;
+}
+.k-pager-wrap {
+    background-color: rgb(227, 227, 227);
+    color: white;
+    width: 99% !important;
+}
+.filter2 {
+	background-position: 0 6px;
+padding-top: 6px;
+}
+
+#signupContact12 {
+	
+	width: 265px;
+	
+	
+	}
+
+.btnpopup a {
+	padding-left: 15px;
+}
+
+
+}
+
+@media screen and (min-width: 540px)  and (max-width:568px) {
+.k-pager-wrap {
+    background-color: rgb(227, 227, 227);
+    color: white;
+    width: 99% !important;
+}
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 241%;
+}
+
+.filter2 {
+	
+	background-position: 2px 6px;
+	padding-top: 6px;
+	
+	
+	}
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+}
+
+
+@media screen  and (max-width:384px){
+.k-pager-wrap {
+    color: rgb(255, 255, 255);
+   width: 99% !important;
+}.k-widget, .k-button {
+    box-shadow: none;
+    width: 281%;
+}
+
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+#signupContact12 {
+width: 70%;}
+.view-all-filter {
+	 width: 212px;
+	
+	}
+	.btnpopup a {
+	margin-right: 4px;
+	}
+	.filter2 {
+	padding-top: 6px;
+	background-position: 6px 5px;
+	}
+
+}
+
+@media screen  and (max-width:384px){
+.k-pager-wrap {
+    color: rgb(255, 255, 255);
+   width: 99% !important;
+}
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 341%;
+}
+
+}
+
+
+
+@media screen  and (max-width:320px){
+	
+
+.k-pager-wrap {
+    color: rgb(255, 255, 255);
+   width: 99% !important;
+}
+.ticketidtable {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: scroll;
+    }
+.k-widget, .k-button {
+    box-shadow: none;
+    width: 341%;
+}
+#signupContact12 {
+    width: 85%;
+   
+    left: 15.5px;
+   
+    top: 24.5px;
+}
+.btnpopup a {
+    margin-right: 9px;
+}
+
+.view-all-filter {
+    width: 222px;
+}
+
+	}
+
+
+
