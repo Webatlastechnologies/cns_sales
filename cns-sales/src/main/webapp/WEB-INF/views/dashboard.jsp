@@ -213,7 +213,7 @@
 				        scrollable: false,
 				        columns: [
 		                            { field: "sales_person", title:"<span style='color:black;font-weight:bold;'>Sales Person</span>",footerTemplate: '<span>Totals</span>'},
-		                            { field: "amountTotal", title:"<span style='color:black;font-weight:bold;'>Invoice Value</span>",footerTemplate: '<div id="famount" style="text-align : right"></div>' ,attributes: {style: "text-align : right"}  },
+		                            { field: "amountTotal",format: '{0:n2}' ,title:"<span style='color:black;font-weight:bold;'>Invoice Value</span>",footerTemplate: '<div id="famount" style="text-align : right"></div>' ,attributes: {style: "text-align : right"}  },
 		                            { field:"profitTotal", title:"<span style='color:black;font-weight:bold;'>Profit</span>",format: '{0:n2}',footerTemplate: '<div id="fprofit" style="text-align : right"></div>',attributes: {style: "text-align : right"}  },
 		                            {title:"<span style='color:black;font-weight:bold;'>Profit %</span>",field:"profitPer",format: '{0:n2} %',footerTemplate: '<div id="fprofitPer" style="text-align : right"></div>',attributes: {style: "text-align : right"}  },
 		                        ],

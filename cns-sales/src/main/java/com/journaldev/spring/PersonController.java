@@ -87,7 +87,7 @@ public class PersonController {
 			List<Invoice1> invoices = new ArrayList<Invoice1>();
 			List<Invoice1> invoicesTemp = new ArrayList<Invoice1>();
 			do {
-				invoicesTemp = client.getInvoices(startDate, "Type==\"ACCREC\"", null,pageNo++);
+				invoicesTemp = client.getInvoices(startDate, "Type==\"ACCREC\"  AND STATUS==\"AUTHORISED\"", null,pageNo++);
 				invoices.addAll(invoicesTemp);
 				//System.out.println(invoicesTemp.get(0).getInvoiceNumber());
 			} while (invoicesTemp.size() == 100);

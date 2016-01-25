@@ -123,7 +123,7 @@ public class PersonDAOImpl implements PersonDAO {
 				" INVOICE_DATE as invoiceDate, profit , PROFIT_PER as profitPer, " +
 				" SALES_PERSON as salesPerson, datee , " +
 				" CASE WHEN TIMESTAMPDIFF(MINUTE,insert_Date,NOW()) <1 THEN '1' ELSE '0' END as isGreen " + 
-				" from Invoice1 where sales_person='"+salesPerson+"' and  DATE_FORMAT(INVOICE_DATE,'%Y-%c') = '"+date+"'  order by insert_date desc limit 10");
+				" from Invoice1 where sales_person='"+salesPerson+"' and  DATE_FORMAT(INVOICE_DATE,'%Y-%c') = '"+date+"'  order by insert_date desc limit 15");
 	}
 	/*public Map<String,Object> getSPMonthData(String date,String salesPerson){
 		Map<String,Object> result=new HashMap<>();
