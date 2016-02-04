@@ -75,7 +75,7 @@ protected static final String BASE_URL = "https://api.xero.com/api.xro/2.0/";
 protected static final DateFormat utcFormatter;
 static {
  utcFormatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
- utcFormatter.setTimeZone(TimeZone.getTimeZone("UTC"));
+// utcFormatter.setTimeZone(TimeZone.getTimeZone("GMT"));
 }
 protected static final Pattern MESSAGE_PATTERN = Pattern.compile("<Message>(.*)</Message>");
 
@@ -154,6 +154,7 @@ protected List<Invoice1> getInvoices(String endPoint, Date modifiedAfter, Map<St
 		invoice.setInvoiceAmount(new BigDecimal(i.get("SubTotal").toString()));
 		invoice.setInvoiceNumber(i.get("InvoiceNumber").toString());
 		try {
+			System.out.println(i.get("InvoiceNumber").toString()+" : "+i.get("DateString").toString()+" : "+utcFormatter.parse(i.get("DateString").toString()));
 			invoice.setInvoiceDate(utcFormatter.parse(i.get("DateString").toString()));
 		} catch (ParseException e) {
 			e.printStackTrace();
