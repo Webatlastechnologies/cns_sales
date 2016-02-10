@@ -275,9 +275,9 @@ public class PersonController {
 	@RequestMapping(value = "/invoice/update", method = RequestMethod.GET, produces = "application/json")
 	public @ResponseBody
 	String updateInvoices(HttpServletRequest request,HttpServletResponse response) {
+		System.out.println("inside updateInvoices");
 		Gson gson = new Gson();
-		Type listType = new TypeToken<List<Invoice1>>() {
-		}.getType();
+		Type listType = new TypeToken<List<Invoice1>>() {}.getType();
 		List<Invoice1> invoiceList = (List<Invoice1>) gson.fromJson(request.getParameter("models"), listType);
 		List<Invoice1> updatedInvoiceList = new ArrayList<Invoice1>();
 		for (Invoice1 invoice : invoiceList) {
@@ -295,7 +295,7 @@ public class PersonController {
 			
 		}
 		for(Invoice1 invoice1:invoiceList)
-		this.personService.saveInvoice(invoice1, true);
+			this.personService.saveInvoice(invoice1, true);
 		String json = gson.toJson(updatedInvoiceList);
 		return json;
 	}
