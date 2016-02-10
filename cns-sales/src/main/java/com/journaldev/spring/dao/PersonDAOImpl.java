@@ -74,7 +74,10 @@ public class PersonDAOImpl implements PersonDAO {
 
 	public void saveInvoice(Invoice1 invoice,boolean updateExisting) {
 		Session session = this.sessionFactory.getCurrentSession();	
-		session.saveOrUpdate(invoice);
+		int result=jdbcTemplate.queryForInt("select count(*) from Invoice1 where INVOICE_NUMBER='"+invoice.getInvoiceNumber()+"'");
+		if(result!=1)
+			session.save(invoice);
+		
 		/*for (Invoice1 invoice1 : invoice) {
 			session.saveOrUpdate(invoice1);
 			Invoice1 iii=(Invoice1) session.get(Invoice1.class, invoice1.getInvoiceNumber());
